@@ -14,9 +14,9 @@ public class ShootProjectiles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Mathf.Abs (Input.GetAxis ("Horizontal") + Input.GetAxis ("Vertical")) > 0.4f) {
+		if (Mathf.Abs (Input.GetAxis ("Horizontal-R") + Input.GetAxis ("Vertical-R")) > 0.4f) {
 
-			inputPos = new Vector2 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"));
+			inputPos = new Vector2 (Input.GetAxis ("Horizontal-R"), Input.GetAxis ("Vertical-R"));
 			inputAngle = Mathf.Atan2 (inputPos.x, inputPos.y);
 			localPos = new Vector2 (this.transform.position.x + Mathf.Cos(-inputAngle + Mathf.PI * 0.5f) * 0.5f, this.transform.position.y + Mathf.Sin(-inputAngle + Mathf.PI * 0.5f) * 0.5f);
 			var projectile = Instantiate (projectileObject, localPos, Quaternion.identity);

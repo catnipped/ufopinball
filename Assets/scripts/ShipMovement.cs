@@ -17,8 +17,8 @@ public class ShipMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		forceX = Input.GetAxis ("Horizontal");
-		forceY = Input.GetAxis ("Vertical");
+		forceX = Input.GetAxis ("Horizontal-L");
+		forceY = Input.GetAxis ("Vertical-L");
 		rb.AddForce (new Vector2 (forceX*strengthX, forceY*strengthY));
 
 	}

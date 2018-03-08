@@ -21,9 +21,9 @@ public class LightRing : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Mathf.Abs (Input.GetAxis ("Horizontal") + Input.GetAxis ("Vertical")) > 0.4f) {
+		if (Mathf.Abs (Input.GetAxis ("Horizontal-L") + Input.GetAxis ("Vertical-L")) > 0.4f) {
 
-			inputPos = new Vector2 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"));
+			inputPos = new Vector2 (Input.GetAxis ("Horizontal-L"), Input.GetAxis ("Vertical-L"));
 			inputAngle = Mathf.Atan2 (inputPos.x, inputPos.y) * Mathf.Rad2Deg;
 
 			if (inputAngle > angle - 20 && inputAngle < angle + 20) {
