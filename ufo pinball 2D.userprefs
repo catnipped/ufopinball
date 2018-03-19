@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/ShipEyes.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyLaser.cs">
     <Files>
-      <File FileName="Assets/scripts/ShootProjectiles.cs" Line="14" Column="2" />
-      <File FileName="Assets/scripts/LightRing.cs" Line="26" Column="86" />
-      <File FileName="Assets/scripts/ShipLights.cs" Line="13" Column="67" />
-      <File FileName="Assets/scripts/Projectile.cs" Line="24" Column="27" />
-      <File FileName="Assets/scripts/ShipMovement.cs" Line="21" Column="38" />
-      <File FileName="Assets/scripts/ShipEyes.cs" Line="14" Column="52" />
+      <File FileName="Assets/scripts/ProjectileTrail.cs" Line="20" Column="1" />
+      <File FileName="Assets/scripts/AsteroidBreakInTwo.cs" Line="20" Column="33" />
+      <File FileName="Assets/EnemyLaser.cs" Line="14" Column="17" />
+      <File FileName="Assets/scripts/FollowShip.cs" Line="27" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

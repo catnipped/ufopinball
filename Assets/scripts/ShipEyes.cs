@@ -21,7 +21,6 @@ public class ShipEyes : MonoBehaviour {
 		velocity = new Vector2(rb.velocity.x / 3, rb.velocity.y / 3);
 		velocity.x = Mathf.Clamp (rb.velocity.x, -1f, 1f) * width ;
 		velocity.y = Mathf.Clamp (rb.velocity.y, -1f,1f) * height ;
-		Debug.Log (velocity);
 		this.transform.localPosition = Vector2.Lerp (this.transform.localPosition, center+velocity, speed);
 	}
 }

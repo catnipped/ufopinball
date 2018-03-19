@@ -20,7 +20,7 @@ public class ShootProjectiles : MonoBehaviour {
 			inputAngle = Mathf.Atan2 (inputPos.x, inputPos.y);
 			localPos = new Vector2 (this.transform.position.x + Mathf.Cos(-inputAngle + Mathf.PI * 0.5f) * 0.5f, this.transform.position.y + Mathf.Sin(-inputAngle + Mathf.PI * 0.5f) * 0.5f);
 			var projectile = Instantiate (projectileObject, localPos, Quaternion.identity);
-			projectile.transform.Rotate(new Vector3(0,0,-inputAngle * Mathf.Rad2Deg));
+//			projectile.transform.Rotate(new Vector3(0,0,-inputAngle * Mathf.Rad2Deg));
 		}
 	}
 }

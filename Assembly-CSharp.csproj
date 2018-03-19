@@ -51,10 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemyLaser.cs" />
+     <Compile Include="Assets\scripts\AsteroidBreakInTwo.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
      <Compile Include="Assets\scripts\FlipperScript.cs" />
+     <Compile Include="Assets\scripts\FollowShip.cs" />
      <Compile Include="Assets\scripts\LightRing.cs" />
      <Compile Include="Assets\scripts\Projectile.cs" />
+     <Compile Include="Assets\scripts\ProjectileTrail.cs" />
      <Compile Include="Assets\scripts\ShipEyes.cs" />
      <Compile Include="Assets\scripts\ShipJoystick.cs" />
      <Compile Include="Assets\scripts\ShipLights.cs" />
